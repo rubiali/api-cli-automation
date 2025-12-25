@@ -6,6 +6,7 @@ from logger import logger
 def main():
     parser = argparse.ArgumentParser(description="CLI para consumo de API")
     parser.add_argument("--limit", type=int, default=5, help="Limite de usuários")
+    parser.add_argument("--save", type=str, help="Salvar resultado em arquivo JSON")
 
     args = parser.parse_args()
 
