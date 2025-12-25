@@ -30,6 +30,7 @@ e automação simples em Python.
 
 ## Estrutura do Projeto
 
+```text
 api-cli-automation/
 ├── cli.py
 ├── services.py
@@ -38,6 +39,7 @@ api-cli-automation/
 ├── logger.py
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
